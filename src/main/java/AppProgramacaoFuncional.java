@@ -26,7 +26,7 @@ public class AppProgramacaoFuncional {
                 .mapToDouble((Estudante e) -> e.getNota())
                 .max()
                 .orElse(0);
-        System.out.println(maiorNota);
+        System.out.printf("A maior nota é: %.2f\n", maiorNota);
 
     }
 
